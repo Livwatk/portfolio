@@ -3,6 +3,27 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 576px) {
+  .homepage {
+    display: none;
+  }
+  .introduction {
+    font-size: 48px;
+  }
+  .front-end {
+    font-size: 30px;
+  }
+  .app-name {
+    text-align: center;
+    display: block;
+  }
+  .contact-me {
+    font-size: 33px;
+  }
+  .email-link {
+    font-size: 30px;
+  }
+}
 body {
   margin: 100px 0;
 }
@@ -18,7 +39,7 @@ h2 {
   font-size: 48px;
 }
 h3 {
-  font-size: 24px;
+  font-size: 33px;
   opacity: 0.7;
 }
 .introduction {
@@ -79,4 +100,9 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.contact-now {
+  font-size: 33px;
+  text-align: center;
+  color: #6c63ff;
 }
